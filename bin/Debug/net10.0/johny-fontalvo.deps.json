@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "johny-fontalvo/1.0.0": {
+        "runtime": {
+          "johny-fontalvo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "johny-fontalvo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

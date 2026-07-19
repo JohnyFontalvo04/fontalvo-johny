@@ -1,0 +1,14 @@
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\bin\Debug\net10.0\johny-fontalvo.exe
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\bin\Debug\net10.0\johny-fontalvo.deps.json
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\bin\Debug\net10.0\johny-fontalvo.runtimeconfig.json
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\bin\Debug\net10.0\johny-fontalvo.dll
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\bin\Debug\net10.0\johny-fontalvo.pdb
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\obj\Debug\net10.0\johny-fontalvo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\obj\Debug\net10.0\johny-fontalvo.AssemblyInfoInputs.cache
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\obj\Debug\net10.0\johny-fontalvo.AssemblyInfo.cs
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\obj\Debug\net10.0\johny-fontalvo.csproj.CoreCompileInputs.cache
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\obj\Debug\net10.0\johny-fontalvo.dll
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\obj\Debug\net10.0\refint\johny-fontalvo.dll
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\obj\Debug\net10.0\johny-fontalvo.pdb
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\obj\Debug\net10.0\johny-fontalvo.genruntimeconfig.cache
+C:\Users\johny\Downloads\Actividad\johny-fontalvo\obj\Debug\net10.0\ref\johny-fontalvo.dll
