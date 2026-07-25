@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\johny\\Downloads\\Actividad\\johny-fontalvo\\johny-fontalvo.csproj",
+      "projectUniqueName": "C:\\Users\\johny\\Desktop\\johny-fontalvo\\ejercicio-01-luhn\\johny-fontalvo.csproj",
       "projectName": "johny-fontalvo",
-      "projectPath": "C:\\Users\\johny\\Downloads\\Actividad\\johny-fontalvo\\johny-fontalvo.csproj",
+      "projectPath": "C:\\Users\\johny\\Desktop\\johny-fontalvo\\ejercicio-01-luhn\\johny-fontalvo.csproj",
       "packagesPath": "C:\\Users\\johny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\johny\\Downloads\\Actividad\\johny-fontalvo\\obj\\",
+      "outputPath": "C:\\Users\\johny\\Desktop\\johny-fontalvo\\ejercicio-01-luhn\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\johny\\AppData\\Roaming\\NuGet\\NuGet.Config"
