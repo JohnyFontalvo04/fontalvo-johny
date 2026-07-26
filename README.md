@@ -1,200 +1,132 @@
-# 💳 Ejercicio 1 - Validador de Tarjetas (Algoritmo de Luhn)
+# 💻 Portafolio de Ejercicios - C# y .NET
 
 ## 📖 Descripción
 
-Este proyecto corresponde al **Ejercicio 1** del módulo **Fundamentos de C# y .NET**. Consiste en el desarrollo de una aplicación de consola capaz de validar números de tarjetas de crédito y débito mediante la implementación del **Algoritmo de Luhn**, además de identificar la marca de la tarjeta, procesar múltiples tarjetas desde un archivo, generar números válidos y presentar estadísticas de las validaciones realizadas.
+Este repositorio reúne los ejercicios desarrollados durante el curso de **C# y .NET**, aplicando progresivamente los conceptos fundamentales del lenguaje y de la Programación Orientada a Objetos (POO).
+
+Cada ejercicio se encuentra organizado en una carpeta independiente y corresponde a un módulo específico del curso.
 
 ---
 
-## 🎯 Objetivos
+# 📂 Contenido del repositorio
 
-- Implementar el algoritmo de Luhn en C#.
-- Identificar la marca de una tarjeta según su prefijo y longitud.
-- Aplicar conceptos fundamentales de programación en C#.
-- Trabajar con archivos de texto para procesar múltiples registros.
-- Desarrollar una aplicación modular utilizando métodos con responsabilidad única.
+## 📁 Ejercicio 1 - Validador de Tarjetas (Algoritmo de Luhn)
 
----
+**Carpeta**
 
-## 🛠 Tecnologías utilizadas
+```text
+ejercicio-01-luhn/
+```
 
-- C#
-- .NET
-- Aplicación de consola
-- Visual Studio Code
-
----
-
-## 📚 Temas aplicados
+### Temas aplicados
 
 - Variables
 - Tipos de datos
-- Cadenas (`string`)
-- Caracteres (`char`)
-- Condicionales (`if`, `switch`)
-- Ciclos (`for`, `do-while`)
 - Métodos
-- Operadores
+- Condicionales
+- Ciclos
 - Arreglos
-- Manejo de excepciones (`try-catch`)
-- Lectura de archivos (`File.ReadAllLines()`)
+- Manejo de archivos
+- Algoritmo de Luhn
+- Manejo de excepciones
+
+### Funcionalidades
+
+- Validar tarjetas manualmente
+- Validar tarjetas desde archivo
+- Identificar la marca
+- Generar tarjetas válidas
+- Mostrar estadísticas
 
 ---
 
-# 🚀 Funcionalidades
+## 📁 Ejercicio 2 - Sistema de Gestión de Tareas (POO)
 
-La aplicación cuenta con un menú interactivo que permite acceder a las siguientes opciones:
+**Carpeta**
 
 ```text
-=== VALIDADOR DE TARJETAS ===
-
-1. Validar una tarjeta
-2. Validar desde archivo
-3. Generar número válido
-4. Estadísticas
-5. Salir
+ejercicio-02-poo/
 ```
 
+### Temas aplicados
+
+- Clases
+- Encapsulamiento
+- Herencia
+- Polimorfismo
+- Interfaces
+- Enumeraciones
+- List<T>
+- Persistencia JSON
+- DateTime
+- Manejo de archivos
+
+### Funcionalidades
+
+- Crear tareas simples
+- Crear tareas con vencimiento
+- Listar tareas
+- Filtrar por categoría
+- Filtrar por prioridad
+- Marcar tareas como completadas
+- Mostrar tareas vencidas
+- Eliminar tareas
+- Exportar información
+- Guardar automáticamente en JSON
+- Cargar automáticamente la información
+
 ---
 
-## ✅ Validar una tarjeta
+# 🛠 Tecnologías utilizadas
 
-Permite ingresar manualmente un número de tarjeta para:
+- C#
+- .NET
+- Visual Studio Code
+- Git
+- GitHub
 
-- Verificar si cumple el algoritmo de Luhn.
-- Identificar la marca correspondiente.
-- Mostrar si la tarjeta es válida o inválida.
+---
 
-Ejemplo:
+# 📁 Estructura del repositorio
 
 ```text
-Número: 4532015112830366
-Marca: Visa
-Estado: VÁLIDA
-```
-
----
-
-## 📄 Validar desde archivo
-
-Permite leer un archivo de texto (`.txt`) que contiene un número de tarjeta por línea.
-
-El programa procesa cada tarjeta mostrando:
-
-- Número de tarjeta
-- Marca identificada
-- Estado de validación
-
-Al finalizar, presenta un resumen con las estadísticas obtenidas.
-
----
-
-## 🎲 Generar número válido
-
-Genera automáticamente un número de tarjeta que cumple el algoritmo de Luhn e indica la marca correspondiente.
-
-Ejemplo:
-
-```text
-Número generado: 4123456789012345
-Marca: Visa
-```
-
----
-
-## 📊 Estadísticas
-
-El sistema mantiene un registro de las validaciones realizadas durante la ejecución del programa.
-
-Se muestran:
-
-- Total de tarjetas válidas.
-- Total de tarjetas inválidas.
-- Cantidad de tarjetas Visa.
-- Cantidad de tarjetas Mastercard.
-- Cantidad de tarjetas American Express.
-- Cantidad de tarjetas Discover.
-- Cantidad de tarjetas desconocidas.
-
----
-
-# 🏦 Marcas soportadas
-
-| Marca | Prefijo | Longitud |
-|--------|----------|-----------|
-| Visa | 4 | 13 o 16 dígitos |
-| Mastercard | 51 - 55 | 16 dígitos |
-| American Express | 34 o 37 | 15 dígitos |
-| Discover | 6011 o 65 | 16 a 19 dígitos |
-| Desconocida | Otros | Variable |
-
----
-
-# 🧮 Algoritmo implementado
-
-La validación de tarjetas se realiza mediante el **Algoritmo de Luhn**, siguiendo los siguientes pasos:
-
-1. Recorrer el número de tarjeta desde el último dígito.
-2. Duplicar uno de cada dos dígitos.
-3. Si el resultado es mayor que 9, restar 9.
-4. Sumar todos los dígitos.
-5. Verificar que la suma total sea múltiplo de 10.
-
-Si la condición anterior se cumple, la tarjeta se considera **válida**.
-
----
-
-# 📁 Estructura del proyecto
-
-```text
-ValidadorTarjetas/
+fontalvo-johny/
 │
-├── Program.cs
-├── tarjetas.txt
-├── johny-fontalvo.csproj
+├── ejercicio-01-luhn/
+│   ├── Program.cs
+│   ├── tarjetas.txt
+│   └── README.md
+│
+├── ejercicio-02-poo/
+│   ├── Program.cs
+│   ├── Models/
+│   ├── Services/
+│   ├── Interfaces/
+│   ├── Enums/
+│   ├── Persistence/
+│   ├── tareas.json
+│   └── README.md
+│
 └── README.md
 ```
 
-
-# 📄 Formato del archivo de entrada
-
-El archivo de texto debe contener un número de tarjeta por cada línea.
-
-Ejemplo:
-
-```text
-4111111111111111
-5555555555554444
-378282246310005
-6011111111111117
-1234567890123456
-```
-
 ---
 
-# 📌 Métodos implementados
+# 🎯 Competencias desarrolladas
 
-El proyecto fue desarrollado utilizando métodos independientes para facilitar la organización del código.
+Durante el desarrollo de estos ejercicios se aplicaron conocimientos relacionados con:
 
-- `Main()`
-- `ValidarManual()`
-- `ValidarTarjeta(string numeroTarjeta)`
-- `IdentificarMarca(string numeroTarjeta)`
-- `ValidarDesdeArchivo(string rutaArchivo)`
-- `GenerarNumeroValido()`
-- `CalcularDigitoLuhn(string numeroTarjeta)`
-- `MostrarEstadisticas()`
-- `ActualizarEstadisticas(bool esValida, string marcaTarjeta)`
-
----
-
-# 📷 Evidencias
-
-Para la entrega del ejercicio se incluyen capturas de pantalla donde se evidencia:
-
-- Validación de una tarjeta válida.
-- Validación de una tarjeta inválida.
-- Menú principal de la aplicación.
+- Programación estructurada.
+- Programación Orientada a Objetos.
+- Encapsulamiento.
+- Herencia.
+- Polimorfismo.
+- Interfaces.
+- Colecciones (`List<T>`).
+- Serialización y deserialización JSON.
+- Manejo de archivos.
+- Manejo de excepciones.
+- Organización de proyectos en C#.
 
 ---
 
@@ -206,6 +138,6 @@ Estudiante de Ingeniería de Sistemas
 
 ---
 
-## 📄 Licencia
+# 📄 Licencia
 
-Este proyecto fue desarrollado con fines exclusivamente académicos como parte del módulo **Fundamentos de C# y .NET**.
+Este repositorio fue desarrollado con fines exclusivamente académicos como parte del proceso de formación en **C# y .NET**.
